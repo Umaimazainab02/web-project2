@@ -1444,4 +1444,8 @@ p span {
         flex-direction: column;
         gap: 20px;
     }
+
+    .line1 {
+    display: none;
+}
 }
