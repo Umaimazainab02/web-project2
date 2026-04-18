@@ -394,12 +394,10 @@ body {
 .line16 {
     width: 1350px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 20px;
     padding: 40px 20px;
     background-color: #f9fafb;
-    flex-wrap: nowrap;
     box-sizing: border-box;
 
 }
@@ -1554,18 +1552,17 @@ p span {
 @media (max-width: 992px) {
     .box2 {
        
-        flex: 0 0 45%;
     }
     .line16{
-        display: flex;
-        flex-direction: column;
+      justify-content: center;   /* 🔥 space hata dega */
+      
     }
 }
 
 /* Mobile */
 @media (max-width: 576px) {
     .box2 {
-        flex: 0 0 100%;
+        padding: 0px;
     }
 }
 }
