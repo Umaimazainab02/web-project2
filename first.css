@@ -650,7 +650,6 @@ p span {
 
 }
 
-/* This is a comment 
 
 .line30 {
     display: flex;
@@ -910,8 +909,8 @@ p span {
     gap: 20px;
     padding-top: 12px;
     justify-content: center;
-    width: 1280px;*/
-/* ADD THIS 
+    width: 1280px;
+/* ADD THIS */
     margin: 0 auto;
 }
 
@@ -1438,7 +1437,7 @@ p span {
 
 .line137:hover {
     background: #6d28d9;
-} */
+} 
 
 @media(max-width: 768px) {
 
@@ -1742,5 +1741,8 @@ p span {
     .header {
         align-items: center;
     }
-
+.job-row{
+    display: block;
+    width: 200px;
+}
 }
